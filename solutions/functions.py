@@ -82,7 +82,7 @@ def calculate_area(shape, *args):
     for the shape is incorrect.
     """
     if shape == "circle":
-        return args*args*3.141592653589793
+        return args[0]*args[0]*math.pi
     if shape == "rectangle":
         return args[0]*args[1]
     if shape == "triangle":
