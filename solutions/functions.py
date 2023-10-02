@@ -31,10 +31,10 @@ def find_maximum(lst):
     """
     a = 0
     for i in range(0,len(lst)-1):
-        a = len[i]
-
-
-    pass  # Implement your solution here 
+        if a < len[i]:
+            a = len[i]
+    return a
+ # Implement your solution here 
 
 def odd_or_even(n):
     """
